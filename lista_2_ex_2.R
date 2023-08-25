@@ -26,4 +26,4 @@ for (i in 1:monte_carlo_itr){
 # resultado da simulacao: 
 # razao em que o parametro real foi capturado pelo intervado de confianca
 resultado <- sum(simul)/monte_carlo_itr;
-cat("O parametro foi capturado pelo intervalo ", resultado*100, "%")
+cat("O parametro foi capturado pelo intervalo em ", resultado*100, "% das das simulacoes\n")
