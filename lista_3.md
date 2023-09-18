@@ -82,7 +82,7 @@ xi_prox <- sequencia_aleatoria[2:length(sequencia_aleatoria)];
 plot(xi_prox, xi)
 ```
 Saída do script: 
-![[plot_lista_3_ex_5.png]]
+![image](plot_lista_3_ex_5.png)
 
 Não foi observado uma sequência de números que satisfaz $u_{i+T}=u_i, \forall i$. Portanto, não é possível estabeler o período da sequência observada. Nota-se, porém, que um padrão se repete em $T = 3$, com uma inclinação linear característica desse tipo de gerador. Ainda que o período não possa ser estabelecido, conclui-se que o restante da sequência é determinada a partir dos primeiros 3 números da sequência.
 6. 
